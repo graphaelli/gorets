@@ -4,16 +4,13 @@ license: GPL3
 
 import:
   - package: golang.org/x/net
-    ref:     07b51741c1d6423d4a6abab1c49940ec09cb1aaf
     subpackages:
     - /context/ctxhttp
     - /html/charset
   - package: golang.org/x/text
-    ref:     5ee49cfe751141f8017047bab800d1f528ee3be1
     subpackages:
     - /encoding
     - /transform
-  - package: github.com/jpfielding/gotest
   - package: github.com/jpfielding/gofilters
   - package: github.com/jpfielding/gowirelog
   - package: github.com/jpfielding/gominidom
